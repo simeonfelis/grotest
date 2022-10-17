@@ -1,0 +1,14 @@
+configName: v1
+folderName: grotest
+format_version: v1.0
+frameworkPath: ../../Harmony3
+processor: ATSAMD51G19A
+projectName: grotest
+settings:
+  PackageFilter: touch_apps;csp_apps_sam_rh71;harmony-services;bootloader;gfx_apps_sam_d5x_e5x;x2c;touch;csp_apps_sam_d5x_e5x;quick_docs;core_apps_sam_d5x_e5x;core_apps_sam_rh71;gfx;net;bootloader_apps_usb;core;reference_apps;usb;csp;crypto;dev_packs;mc_apps_sam_d5x_e5x;csp_apps_sam_d21_da1;gfx_aria;bootloader_apps_uart;gfx_apps;motor_control;bsp
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: ./dev_packs/arm/CMSIS/5.8.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: ./dev_packs/Microchip/SAMD51_DFP/3.6.120/samd51a/atdf/ATSAMD51G19A.atdf
