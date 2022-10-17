@@ -97,13 +97,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 1F97F3966C8D2601A5FEFF04286B9624
-- generatedChecksum: 4A0B00DF20738414078086EB7AEFCC30
+- generatedChecksum: BA49DCCBD4EF4A7FDEF06D7A98504D5E
   logicalPath: config/v1/gfx/legato/generated
   name: le_gen_init.c
   physicalPath: gfx/legato/generated
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 4A0B00DF20738414078086EB7AEFCC30
+  userChecksum: BA49DCCBD4EF4A7FDEF06D7A98504D5E
 - generatedChecksum: 57D9346A2909FB0E9B09A83530AD8F84
   logicalPath: config/v1/gfx/legato/generated
   name: le_gen_scheme.c
@@ -118,6 +118,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 70A84E4E687A8307E90FB0BE1A376EC9
+- generatedChecksum: A56543F89ADCCCE926745754149082FB
+  logicalPath: config/v1/gfx/legato/generated/screen
+  name: le_gen_screen_Screen1.c
+  physicalPath: gfx/legato/generated/screen
+  security: NON_SECURE
+  type: SOURCE
+  userChecksum: A56543F89ADCCCE926745754149082FB
 - generatedChecksum: 5A9AEE46A0015044B529284B9BF6CF31
   logicalPath: config/v1/gfx/legato/generated
   name: le_gen_stringtable.c
@@ -1588,13 +1595,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: E681EF2A0211E67CEF4AC53D35061D3B
-- generatedChecksum: A0EF378E7CEC7393625CFDDC465529F4
+- generatedChecksum: 2EE72DC7AC6D6EB432C84FA71529D720
   logicalPath: config/v1/gfx/legato/generated
   name: le_gen_init.h
   physicalPath: gfx/legato/generated
   security: NON_SECURE
   type: HEADER
-  userChecksum: A0EF378E7CEC7393625CFDDC465529F4
+  userChecksum: 2EE72DC7AC6D6EB432C84FA71529D720
 - generatedChecksum: 12EC2E443D80384BF3CBEC9B28B00569
   logicalPath: config/v1/gfx/legato/generated
   name: le_gen_scheme.h
@@ -1609,6 +1616,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 141A1A8F5C20481AA51FF9D64BB1B83F
+- generatedChecksum: 31018657DCDB2E0E2BC3F914045E3C24
+  logicalPath: config/v1/gfx/legato/generated/screen
+  name: le_gen_screen_Screen1.h
+  physicalPath: gfx/legato/generated/screen
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 31018657DCDB2E0E2BC3F914045E3C24
 - generatedChecksum: 9F94549B68A734D4482DEA1E768EFEF1
   logicalPath: config/v1/gfx/legato
   name: legato.h
@@ -1637,13 +1651,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 2AEC466414D88B8A469CFE7E779A5B9B
-- generatedChecksum: 27F6C89C12F9DC7983B640BF4E1FF3E8
+- generatedChecksum: 3E78EE39E5CB76AAC9E2A5EEC2BE4B98
   logicalPath: config/v1/gfx/legato
   name: legato_config.h
   physicalPath: gfx/legato
   security: NON_SECURE
   type: HEADER
-  userChecksum: 27F6C89C12F9DC7983B640BF4E1FF3E8
+  userChecksum: 3E78EE39E5CB76AAC9E2A5EEC2BE4B98
 - generatedChecksum: 30A2B9F9E41BB023C20363CE7E0256A4
   logicalPath: config/v1/gfx/legato/string
   name: legato_dynamicstring.h

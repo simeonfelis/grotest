@@ -64,13 +64,6 @@ typedef enum
     /* Application's state machine's initial state. */
     APP_STATE_INIT=0,
     APP_STATE_SERVICE_TASKS,
-    APP_STATE_ANIMATE_RIGHT_START,
-    APP_STATE_ANIMATE_RIGHT,
-    APP_STATE_ANIMATE_LEFT_START,
-    APP_STATE_ANIMATE_LEFT,
-    APP_STATE_ANIMATE_DONE,
-    /* TODO: Define states used by the application state machine. */
-
 } APP_STATES;
 
 // *****************************************************************************
@@ -91,14 +84,7 @@ typedef struct
     /* The application's current state */
     APP_STATES state;
     SYS_TIME_HANDLE tmr_hdl;
-    SYS_TIME_HANDLE tmr_delay;
-    SYS_TIME_HANDLE anim_tmr_hdl;
-    volatile bool tmr_expired;
-    volatile bool anim_tmr_expired;
-    uint32_t anim_x;
-    uint32_t anim_x_written;
-    uint32_t screen;
-    uint32_t screen_written;
+    int32_t screenid;
 
     /* TODO: Define any additional data used by the application. */
 

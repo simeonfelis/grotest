@@ -62,7 +62,7 @@ extern "C" {
 #define LE_DRIVER_LAYER_MODE                 1
 #define LE_DYNAMIC_VTABLES                   0
 
-#define LE_ASSERT_ENABLE                     0
+#define LE_ASSERT_ENABLE                     1
 #define LE_DEBUG                             0 // internal use only, do not change
 #define LE_DEBUG_RENDERER                    0 // internal use only, do not change
 
@@ -94,7 +94,7 @@ extern "C" {
 #define LE_BARGRAPH_WIDGET_ENABLED         0
 #define LE_BUTTON_WIDGET_ENABLED           0
 #define LE_CHECKBOX_WIDGET_ENABLED         0
-#define LE_CIRCLE_WIDGET_ENABLED           0
+#define LE_CIRCLE_WIDGET_ENABLED           1
 #define LE_CIRCULARGAUGE_WIDGET_ENABLED    0
 #define LE_CIRCULARSLIDER_WIDGET_ENABLED   0
 #define LE_DRAWSURFACE_WIDGET_ENABLED      0
@@ -153,7 +153,7 @@ extern "C" {
 #define LE_WIDGET_MAX_EVENT_FILTERS        2
 
 // renderer config
-#define LE_ALPHA_BLENDING_ENABLED          1
+#define LE_ALPHA_BLENDING_ENABLED          0
 #define LE_SCRATCH_BUFFER_COUNT            1
 #define LE_SCRATCH_BUFFER_SIZE_KB          64
 #define LE_SCRATCH_BUFFER_PADDING          0
